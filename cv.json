@@ -1,0 +1,174 @@
+{
+  "basics": {
+    "name": "Jhon Fernando Vargas",
+    "label": "Dynamic Systems Engineering with 4 years of experience",
+    "image": "/cv3.jpeg",
+    "email": "jfvargasj@eafit.edu.co",
+    "phone": "(+57) 3147166892",
+    "url": "",
+    "summary": "+4 años de experiencia en desarrollo de software enfocado en el uso de modelado de sistemas dinamicos, ",
+    "location": {
+      "address": "Transv 35 nro 72-81",
+      "postalCode": "050001",
+      "city": "Medellín",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "Jhon Vargas",
+        "url": "https://www.linkedin.com/in/jhon-vargas-0b812a210/"
+      },
+      {
+        "network": "Github",
+        "username": "misfits6",
+        "url": "https://github.com/misfits6"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Logios",
+      "position": "Modelling and Software Developer",
+      "url": "",
+      "startDate": "2022-12-01",
+      "endDate": null,
+      "summary": "Description…",
+      "highlights": [""]
+    },
+    {
+      "name": "EAFIT",
+      "position": "Consultant and Software Developer",
+      "url": "",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-01",
+      "summary": "Description…",
+      "highlights": [""]
+    },
+    {
+      "name": "EAFIT",
+      "position": "Researcher / Consultant",
+      "url": "",
+      "startDate": "2020-01-30",
+      "endDate": "2022-12-01",
+      "summary": "Description…",
+      "highlights": [""]
+    },
+    {
+      "name": "GAMAN SA",
+      "position": "Software Developer",
+      "url": "",
+      "startDate": "2019-12-01",
+      "endDate": "2020-12-01",
+      "summary": "Sistema de geolocalización.. sistema VRS",
+      "highlights": [""]
+    },
+    {
+      "name": "AIG inspecciones",
+      "position": "Full Stack Engineer",
+      "url": "",
+      "startDate": "2018-01-31",
+      "endDate": "2019-12-01",
+      "summary": "Desarrollo de aplicacion web para gestion y manejo de actas de inspección en remoto y organización de archivos",
+      "highlights": [""]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "UPB",
+      "position": "Volunteer",
+      "url": "",
+      "startDate": "2017-01-01",
+      "endDate": "2018-01-01",
+      "summary": "Creacion de laboratorio de robotica aerea",
+      "highlights": [""]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad EAFIT",
+      "url": "",
+      "area": "Maestria en Ingenieria",
+      "studyType": "Maestria",
+      "startDate": "2020-02-01",
+      "endDate": "2023-04-16",
+      "score": "4.7",
+      "courses": [""]
+    },
+    {
+      "institution": "Universidad Pontificia Bolivariana",
+      "url": "",
+      "area": "Ingeniero Aeronautico",
+      "studyType": "Ingeniero",
+      "startDate": "",
+      "endDate": "2013-01-01",
+      "score": "3.8",
+      "courses": [""]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Bootcamp Python",
+      "date": "2023-12",
+      "issuer": "Softserve / Ruta N",
+      "url": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "B1"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
+    }
+  ]
+}
