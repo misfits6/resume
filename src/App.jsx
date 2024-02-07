@@ -5,6 +5,8 @@ import { About } from "./components/Sections/About";
 import { Experience } from "./components/Sections/Experience";
 import { Projects } from "./components/Sections/Projects";
 import { Education } from "./components/Sections/Education";
+import { Pubilish } from "./components/Sections/Publish";
+import { Voluntary } from "./components/Sections/Voluntary";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <About />
       <Experience />
       <Education />
-      <Projects />
+      <Pubilish />
+      <Voluntary />
+      {/* <Projects /> */}
       <Skills />
     </main>
   );

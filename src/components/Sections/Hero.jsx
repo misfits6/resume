@@ -21,9 +21,9 @@ export const Hero = () => {
           <h2 className="font-bold py-1 bottom-4 text-lg text-gray-600 text-balance">
             {label}
           </h2>
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row items-center ">
             <TbWorld size={20} color="gray" />
-            <p className="px-1">
+            <p className="px-1 ">
               {city}, {region}
             </p>
           </div>
@@ -67,7 +67,7 @@ export const Hero = () => {
           </footer>
         </div>
         <figure>
-          <img className=" w-36 rounded-lg" src={image} alt={name} />
+          <img className=" w-44 rounded-lg" src={image} alt={name} />
         </figure>
       </div>
     </Section>

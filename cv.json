@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jhon Fernando Vargas",
-    "label": "Dynamic Systems Engineering with 4 years of experience",
+    "label": "Ingeniero en Desarrollo de Sistemas Tecnicos Integrados, con Experiencia en Desarrollo de Software de Uso de Modelos Dinámicos.",
     "image": "cv3.jpeg",
     "email": "jfvargasj@eafit.edu.co",
     "phone": "(+57) 3147166892",
     "url": "",
-    "summary": "+4 años de experiencia en desarrollo de software enfocado en el uso de modelado de sistemas dinamicos, ",
+    "summary": "Con más de 4 años de experiencia en desarrollo de software, me he especializado en el uso de modelado de sistemas técnicos integrados. Durante mi trayectoria profesional, he tenido la oportunidad de trabajar en diversas áreas de ingeniería, abarcando desde el diseño de sistemas de gestión hasta el procesamiento matemático para la geolocalización. Mi experiencia incluye la creación de software matemático para la predicción de sistemas energéticos mediante el modelado dinámico, así como aplicaciones de optimización de eventos de carga y algoritmos de control para la gestión de energía. Mi enfoque principal ha sido la generación de software que resuelve problemas complejos dentro de distintos contextos de ingeniería. Estoy comprometido con la excelencia en el desarrollo de software y tengo una sólida comprensión de los principios fundamentales de la ingeniería. Mi pasión por la resolución de problemas y mi habilidad para trabajar en equipos multidisciplinarios me han permitido contribuir de manera significativa en proyectos diversos y desafiantes.",
     "location": {
       "address": "Transv 35 nro 72-81",
       "postalCode": "050001",
@@ -29,82 +29,115 @@
   },
   "work": [
     {
-      "name": "Logios",
-      "position": "Modelling and Software Developer",
-      "url": "",
+      "name": "LOGIOS Global",
+      "position": "Modelling and Software Developer Engineer",
+      "url": "https://www.logios.global",
       "startDate": "2022-12-01",
       "endDate": null,
-      "summary": "Description…",
-      "highlights": [""]
+      "summary": "Me enfoqué en el desarrollo de modelos dinámicos de vehículos eléctricos junto con infraestructura de carga para la predicción del consumo energético en contextos operacionales. Utilicé técnicas de optimización de agendamiento de carga para minimizar la potencia y dimensioné energías renovables como parte de un sistema integrado para una aplicación web. Este desarrollo permitió a los clientes realizar un análisis riguroso del proceso de electrificación en operaciones de transporte público, incluyendo la estimación de costos operacionales y considerando la degradación en el tiempo de los sistemas de almacenamiento energético de cada activo.",
+      "highlights": [
+        "Matlab",
+        "Python",
+        "Django",
+        "SQL",
+        "PostgreSQL",
+        "GitHub",
+        "Blender"
+      ]
     },
     {
-      "name": "EAFIT",
+      "name": "EAFIT / Universidad Nacional",
       "position": "Consultant and Software Developer",
-      "url": "",
+      "url": "https://www.energetica2030.co/p3-movilidad-electrica/",
       "startDate": "2022-01-01",
       "endDate": "2022-12-01",
-      "summary": "Description…",
-      "highlights": [""]
+      "summary": "mi labor se centró en la implementación electrónica de controladores y sistemas mecánicos en kits de hibridación de motocicletas tipo street. Además, participé en el desarrollo de pruebas en ruta y en banco dinamométrico para validar modelos dinámicos, lo que resultó en un aumento real de la autonomía del vehículo de pruebas en un 30%. También colaboré en la preparación de software de control para el proceso de patente.",
+      "highlights": [
+        "Matlab",
+        "Python",
+        "C",
+        "Arduino",
+        "Protocolo CAN",
+        "GitHub"
+      ]
     },
     {
       "name": "EAFIT",
-      "position": "Researcher / Consultant",
-      "url": "",
+      "position": "Researcher",
+      "url": "https://www.eafit.edu.co/grid",
       "startDate": "2020-01-30",
       "endDate": "2022-12-01",
-      "summary": "Description…",
-      "highlights": [""]
+      "summary": "Me especialicé en el modelado dinámico de vehículos híbridos eléctricos y en el diseño de arquitectura de control MPC para la gestión de energía en motocicletas híbridas de arquitectura en paralelo. Desarrollé software en Matlab para predecir la cantidad óptima de potencia eléctrica y así minimizar el consumo de combustible, logrando un aumento del 30% en la autonomía de las motocicletas tipo street en comparación con las configuraciones convencionales de combustión.",
+      "highlights": ["Matlab", "Python", "GitHub"]
     },
     {
-      "name": "GAMAN SA",
+      "name": "TECSCORP - GamanGP",
       "position": "Software Developer",
-      "url": "",
+      "url": "https://www.gamangp.com",
       "startDate": "2019-12-01",
       "endDate": "2020-12-01",
-      "summary": "Sistema de geolocalización.. sistema VRS",
-      "highlights": [""]
+      "summary": "Lideré el desarrollo de software en Python para un sistema de geolocalización utilizando la técnica VRS, que elevó la precisión de posicionamiento en un 40% en comparación con el uso de dispositivos convencionales. Esta mejora significativa proporcionó a la empresa un ahorro en la compra de dispositivos de alta precisión.",
+      "highlights": ["Python", "GitHub"]
     },
     {
-      "name": "AIG inspecciones",
+      "name": "CRG inspecciones",
       "position": "Full Stack Engineer",
       "url": "",
       "startDate": "2018-01-31",
       "endDate": "2019-12-01",
-      "summary": "Desarrollo de aplicacion web para gestion y manejo de actas de inspección en remoto y organización de archivos",
-      "highlights": [""]
+      "summary": "Contribuí al desarrollo de una aplicación web y móvil para la gestión y manejo de actas de inspección de forma remota y la organización de archivos. Esta aplicación garantizó que el organismo de inspección mantuviera su acreditación en auditorías anuales, demostrando su eficacia en la gestión de procesos críticos para la organización.",
+      "highlights": [
+        "Python",
+        "Django",
+        "SQL",
+        "PostgreSQL",
+        "JavaScript",
+        "React",
+        "React-native",
+        "Tailwind",
+        "HTML",
+        "CSS",
+        "GitHub"
+      ]
     }
   ],
   "volunteer": [
     {
       "organization": "UPB",
-      "position": "Volunteer",
+      "position": "Researcher",
       "url": "",
       "startDate": "2017-01-01",
       "endDate": "2018-01-01",
-      "summary": "Creacion de laboratorio de robotica aerea",
-      "highlights": [""]
+      "summary": "Impulsar el desarrollo de semillero de investigacion de robotica aerea mediante la creacion de proyectos de control de aeronaves UAV's, participacion de concursos de robotica.",
+      "highlights": [
+        "Primer puesto en concurso nacional de robótica XIV olimpiadas de robotica ECIBOT-2018"
+      ]
     }
   ],
   "education": [
     {
       "institution": "Universidad EAFIT",
       "url": "",
-      "area": "Maestria en Ingenieria",
+      "area": "Maestria en ciencias de la Ingeniería (M.Sc.)",
       "studyType": "Maestria",
       "startDate": "2020-02-01",
       "endDate": "2023-04-16",
       "score": "4.7",
-      "courses": [""]
+      "courses": [
+        "Desarrollo de control de gestión de energía para kit de hibridación de motocicletas tipo street"
+      ]
     },
     {
       "institution": "Universidad Pontificia Bolivariana",
       "url": "",
-      "area": "Ingeniero Aeronautico",
+      "area": "Ingeniería Aeronáutica (B.Sc.)",
       "studyType": "Ingeniero",
-      "startDate": "",
-      "endDate": "2013-01-01",
+      "startDate": "2011-01-30",
+      "endDate": "2018-11-01",
       "score": "3.8",
-      "courses": [""]
+      "courses": [
+        "Control automático de vuelo de aeronave de ala rotatoría no tripulada para maniobras de aproximación y aterrizaje en plataformas Offshore"
+      ]
     }
   ],
   "awards": [
@@ -125,18 +158,92 @@
   ],
   "publications": [
     {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
+      "name": "Multi-objective optimal driving strategies for hybrid electric motorcycles with parallel configuration",
+      "publisher": "International Journal of Electric and Hybrid Vehicles",
+      "releaseDate": "2022-05-16",
+      "url": "https://www.inderscienceonline.com/doi/epdf/10.1504/IJEHV.2021.123478",
+      "summary": "Description…"
+    },
+    {
+      "name": "Initial Assessment of a Real-Time Vorticity Solver for Flight Mechanics of Rotary-Wing and e-VTOL Vehicles: A Heterogeneous-Computing Approach",
+      "publisher": "VFS Aeromechanics for Advanced Vertical Flight Technical Meeting",
+      "releaseDate": "2022-01-25",
+      "url": "https://vtol.org/store/product/initial-assessment-of-a-realtime-vorticity-solver-for-flight-mechanics-of-rotarywing-and-evtol-vehicles-a-heterogeneouscomputing-approach-17284.cfm",
+      "summary": "Description…"
+    },
+    {
+      "name": "Control Automatico de Vuelo de Aeronave de Ala Rotatoria no Tripulada para Maniobras de Aproximación y Aterrizaje en Plataformas Offshore",
+      "publisher": "Congreso internacional de Ciencia y Tecnologia Aeroespacial CICTA",
+      "releaseDate": "2018-05-20",
+      "url": "",
       "summary": "Description…"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Python",
       "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "keywords": ["Desarrollo Web", "Backend", "Modelling"]
+    },
+    {
+      "name": "Django",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend"]
+    },
+    {
+      "name": "Matlab",
+      "level": "Master",
+      "keywords": ["Modelling", "Simulation"]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Blender",
+      "level": "Master",
+      "keywords": ["Modelado 3d", "Animación"]
     }
   ],
   "languages": [

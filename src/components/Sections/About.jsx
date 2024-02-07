@@ -7,7 +7,7 @@ const { summary } = basics;
 
 export const About = () => {
   return (
-    <Section title={"About"}>
+    <Section title={"Sobre mí"}>
       <p>{summary}</p>
     </Section>
   );
