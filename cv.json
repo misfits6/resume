@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Jhon Fernando Vargas",
-    "label": "Ingeniero en Desarrollo de Sistemas Tecnicos Integrados, con Experiencia en Desarrollo de Software de Uso de Modelos Dinámicos.",
+    "name": "Jhon Vargas Jaramillo",
+    "label": "Full-Stack & AI Engineer  |  Energy Systems & Electrification",
     "image": "cv3.jpeg",
     "email": "jfvargasj@eafit.edu.co",
-    "phone": "(+57) 3147166892",
-    "url": "",
-    "summary": "Con más de 4 años de experiencia en desarrollo de software, me he especializado en el uso de modelado de sistemas técnicos integrados. Durante mi trayectoria profesional, he tenido la oportunidad de trabajar en diversas áreas de ingeniería, abarcando desde el diseño de sistemas de gestión hasta el procesamiento matemático para la geolocalización. Mi experiencia incluye la creación de software matemático para la predicción de sistemas energéticos mediante el modelado dinámico, así como aplicaciones de optimización de eventos de carga y algoritmos de control para la gestión de energía. Mi enfoque principal ha sido la generación de software que resuelve problemas complejos dentro de distintos contextos de ingeniería. Estoy comprometido con la excelencia en el desarrollo de software y tengo una sólida comprensión de los principios fundamentales de la ingeniería. Mi pasión por la resolución de problemas y mi habilidad para trabajar en equipos multidisciplinarios me han permitido contribuir de manera significativa en proyectos diversos y desafiantes.",
+    "phone": "+57 314 716 6892",
+    "url": "https://sheld-app.com",
+    "summary": "Software Engineer with 7+ years of experience building full-stack applications, AI-driven agents, and simulation platforms for the energy transition. Background in aerospace and vehicle electrification with hands-on experience in embedded control systems and dynamic modeling. Currently architecting web platforms, automation workflows, and optimization engines for EV fleet operations at a US-based company. Founded and maintain a multi-tenant SaaS product serving 60+ active users. Strong track record of translating complex domain problems into production software using Python, Django, React, and TypeScript.",
     "location": {
-      "address": "Transv 35 nro 72-81",
+      "address": "",
       "postalCode": "050001",
       "city": "Medellín",
       "countryCode": "CO",
-      "region": "Colombia"
+      "region": "Colombia (UTC−5 / US Eastern Time)"
     },
     "profiles": [
       {
@@ -24,51 +24,79 @@
         "network": "Github",
         "username": "misfits6",
         "url": "https://github.com/misfits6"
+      },
+      {
+        "network": "Website",
+        "username": "sheld-app.com",
+        "url": "https://sheld-app.com"
       }
     ]
   },
   "work": [
     {
       "name": "LOGIOS Global",
-      "position": "Modelling and Software Developer Engineer",
+      "position": "System Optimization Developer",
       "url": "https://www.logios.global",
-      "startDate": "2022-12-01",
+      "startDate": "2022-11-01",
       "endDate": null,
-      "summary": "Me enfoqué en el desarrollo de modelos dinámicos de vehículos eléctricos junto con infraestructura de carga para la predicción del consumo energético en contextos operacionales. Utilicé técnicas de optimización de agendamiento de carga para minimizar la potencia y dimensioné energías renovables como parte de un sistema integrado para una aplicación web. Este desarrollo permitió a los clientes realizar un análisis riguroso del proceso de electrificación en operaciones de transporte público, incluyendo la estimación de costos operacionales y considerando la degradación en el tiempo de los sistemas de almacenamiento energético de cada activo.",
+      "location": "California — Remote",
+      "summary": "",
       "highlights": [
-        "Matlab",
+        "Architected AI agent pipelines leveraging LLMs and retrieval-augmented generation to automate fleet financial report synthesis from multi-source vehicle telemetry, reducing analyst preparation time by ~70%",
+        "Engineered a full-stack electrification analysis platform (React/TypeScript + Django/PostgreSQL) with interactive scenario modeling, enabling clients to evaluate fleet transition strategies across 50+ vehicle configurations",
+        "Developed dynamic EV simulation models and a charge scheduling optimization engine using PSO and MILP, reducing estimated fleet energy costs by 15–25% through tariff-aware charging windows",
+        "Built real-time fleet telemetry system using MQTT protocol with WebSocket-fed React dashboards for live visualization of 12–15 bus fleets processing 1,000+ data points per minute",
+        "Created integrated systems for operational cost estimation incorporating energy storage degradation modeling, supporting investment decisions for renewable energy infrastructure",
+        "Designed and deployed n8n-based automation workflows orchestrating AI agents to respond to MQTT-driven transport events in real time, reducing manual incident triage and enabling autonomous operational decision-making"
+      ],
+      "technologies": [
         "Python",
         "Django",
-        "SQL",
+        "FastAPI",
         "PostgreSQL",
-        "GitHub",
-        "Blender"
+        "React",
+        "TypeScript",
+        "MATLAB/Simulink",
+        "MQTT",
+        "WebSocket",
+        "AI/LLM APIs",
+        "n8n"
       ]
     },
     {
       "name": "EAFIT / Universidad Nacional",
-      "position": "Consultant and Software Developer",
+      "position": "Software Developer & Consultant",
       "url": "https://www.energetica2030.co/p3-movilidad-electrica/",
-      "startDate": "2022-01-01",
+      "startDate": "2021-01-01",
       "endDate": "2022-12-01",
-      "summary": "mi labor se centró en la implementación electrónica de controladores y sistemas mecánicos en kits de hibridación de motocicletas tipo street. Además, participé en el desarrollo de pruebas en ruta y en banco dinamométrico para validar modelos dinámicos, lo que resultó en un aumento real de la autonomía del vehículo de pruebas en un 30%. También colaboré en la preparación de software de control para el proceso de patente.",
+      "location": "Medellín",
+      "summary": "",
       "highlights": [
-        "Matlab",
+        "Invented and implemented real-time embedded control software for a novel motorcycle hybridization kit, including an MPC-based energy management system currently in patent application process",
+        "Designed MPC and eMPC control architectures for parallel hybrid motorcycle powertrains, achieving a validated 30% increase in vehicle range through optimized electric-combustion switching",
+        "Conducted dynamometer bench testing and on-road validation of simulation models, confirming real-world performance aligned with predicted autonomy improvements"
+      ],
+      "technologies": [
         "Python",
         "C",
+        "MATLAB/Simulink",
         "Arduino",
-        "Protocolo CAN",
-        "GitHub"
+        "CAN Protocol"
       ]
     },
     {
       "name": "EAFIT",
-      "position": "Researcher",
+      "position": "Research Software Engineer",
       "url": "https://www.eafit.edu.co/grid",
-      "startDate": "2020-01-30",
+      "startDate": "2020-01-01",
       "endDate": "2022-12-01",
-      "summary": "Me especialicé en el modelado dinámico de vehículos híbridos eléctricos y en el diseño de arquitectura de control MPC para la gestión de energía en motocicletas híbridas de arquitectura en paralelo. Desarrollé software en Matlab para predecir la cantidad óptima de potencia eléctrica y así minimizar el consumo de combustible, logrando un aumento del 30% en la autonomía de las motocicletas tipo street en comparación con las configuraciones convencionales de combustión.",
-      "highlights": ["Matlab", "Python", "GitHub"]
+      "location": "Medellín",
+      "summary": "",
+      "highlights": [
+        "Developed predictive software for optimal electric power distribution in hybrid vehicles, increasing simulated autonomy by 30% vs. conventional combustion baselines",
+        "Specialized in Energetic Macroscopic Representation (EMR) methodology for dynamic modeling and validation of hybrid electric vehicle powertrains"
+      ],
+      "technologies": ["MATLAB/Simulink", "Python"]
     },
     {
       "name": "TECSCORP - GamanGP",
@@ -76,28 +104,34 @@
       "url": "https://www.gamangp.com",
       "startDate": "2019-12-01",
       "endDate": "2020-12-01",
-      "summary": "Lideré el desarrollo de software en Python para un sistema de geolocalización utilizando la técnica VRS, que elevó la precisión de posicionamiento en un 40% en comparación con el uso de dispositivos convencionales. Esta mejora significativa proporcionó a la empresa un ahorro en la compra de dispositivos de alta precisión.",
-      "highlights": ["Python", "GitHub"]
+      "location": "Medellín",
+      "summary": "",
+      "highlights": [
+        "Led development of geolocation software using Virtual Reference Station (VRS) technique, improving positioning accuracy by 40% compared to conventional single-base devices",
+        "Eliminated the need for high-precision hardware, delivering significant cost savings for field survey operations"
+      ],
+      "technologies": ["Python"]
     },
     {
-      "name": "CRG inspecciones",
+      "name": "CRG Inspecciones",
       "position": "Full Stack Engineer",
       "url": "",
-      "startDate": "2018-01-31",
+      "startDate": "2018-01-01",
       "endDate": "2019-12-01",
-      "summary": "Contribuí al desarrollo de una aplicación web y móvil para la gestión y manejo de actas de inspección de forma remota y la organización de archivos. Esta aplicación garantizó que el organismo de inspección mantuviera su acreditación en auditorías anuales, demostrando su eficacia en la gestión de procesos críticos para la organización.",
+      "location": "Medellín",
+      "summary": "",
       "highlights": [
+        "Built web and mobile applications (Django + React + React Native) for remote management of inspection records, file organization, and compliance tracking",
+        "Developed critical process management systems that ensured the inspection body maintained accreditation across annual audits"
+      ],
+      "technologies": [
         "Python",
         "Django",
-        "SQL",
         "PostgreSQL",
-        "JavaScript",
+        "TypeScript",
         "React",
-        "React-native",
-        "Tailwind",
-        "HTML",
-        "CSS",
-        "GitHub"
+        "React Native",
+        "Tailwind CSS"
       ]
     }
   ],
@@ -108,9 +142,9 @@
       "url": "",
       "startDate": "2017-01-01",
       "endDate": "2018-01-01",
-      "summary": "Impulsar el desarrollo de semillero de investigacion de robotica aerea mediante la creacion de proyectos de control de aeronaves UAV's, participacion de concursos de robotica.",
+      "summary": "Boosted the aerial robotics research group by creating UAV control projects and participating in robotics competitions.",
       "highlights": [
-        "Primer puesto en concurso nacional de robótica XIV olimpiadas de robotica ECIBOT-2018"
+        "1st place at the XIV National Robotics Olympiad ECIBOT-2018"
       ]
     }
   ],
@@ -118,164 +152,185 @@
     {
       "institution": "Universidad EAFIT",
       "url": "",
-      "area": "Maestria en ciencias de la Ingeniería (M.Sc.)",
-      "studyType": "Maestria",
+      "area": "M.Sc. in Engineering Sciences (Advanced Technical Systems)",
+      "studyType": "Master's",
       "startDate": "2020-02-01",
       "endDate": "2023-04-16",
       "score": "4.7",
       "courses": [
-        "Desarrollo de control de gestión de energía para kit de hibridación de motocicletas tipo street"
+        "Thesis: Energy management control development for motorcycle hybridization kit"
       ]
     },
     {
       "institution": "Universidad Pontificia Bolivariana",
       "url": "",
-      "area": "Ingeniería Aeronáutica (B.Sc.)",
-      "studyType": "Ingeniero",
-      "startDate": "2011-01-30",
+      "area": "B.Eng. in Aeronautical Engineering",
+      "studyType": "Bachelor's",
+      "startDate": "2011-01-01",
       "endDate": "2018-11-01",
       "score": "3.8",
       "courses": [
-        "Control automático de vuelo de aeronave de ala rotatoría no tripulada para maniobras de aproximación y aterrizaje en plataformas Offshore"
+        "Automatic flight control of unmanned rotary-wing aircraft for approach and landing maneuvers on offshore platforms"
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
+  "awards": [],
   "certificates": [
     {
-      "name": "Bootcamp Python",
+      "name": "Database Management Bootcamp (38h)",
+      "date": "2024-01",
+      "issuer": "SoftServe",
+      "url": ""
+    },
+    {
+      "name": "Python Developer Bootcamp (100h)",
       "date": "2023-12",
-      "issuer": "Softserve / Ruta N",
+      "issuer": "SoftServe",
+      "url": ""
+    },
+    {
+      "name": "Full-Stack Development Diploma Program (100h)",
+      "date": "2023-01",
+      "issuer": "Universidad EAFIT",
       "url": ""
     }
   ],
   "publications": [
     {
+      "name": "Discrete event simulation for battery-swapping station sizing for hybrid and electric motorcycles",
+      "publisher": "Journal of Cleaner Production",
+      "releaseDate": "2023-03-01",
+      "url": "https://www.sciencedirect.com/science/article/pii/S095965262300313X",
+      "summary": ""
+    },
+    {
       "name": "Multi-objective optimal driving strategies for hybrid electric motorcycles with parallel configuration",
       "publisher": "International Journal of Electric and Hybrid Vehicles",
       "releaseDate": "2022-05-16",
       "url": "https://www.inderscienceonline.com/doi/epdf/10.1504/IJEHV.2021.123478",
-      "summary": "Description…"
+      "summary": ""
     },
     {
       "name": "Initial Assessment of a Real-Time Vorticity Solver for Flight Mechanics of Rotary-Wing and e-VTOL Vehicles: A Heterogeneous-Computing Approach",
       "publisher": "VFS Aeromechanics for Advanced Vertical Flight Technical Meeting",
       "releaseDate": "2022-01-25",
       "url": "https://vtol.org/store/product/initial-assessment-of-a-realtime-vorticity-solver-for-flight-mechanics-of-rotarywing-and-evtol-vehicles-a-heterogeneouscomputing-approach-17284.cfm",
-      "summary": "Description…"
+      "summary": ""
     },
     {
       "name": "Control Automatico de Vuelo de Aeronave de Ala Rotatoria no Tripulada para Maniobras de Aproximación y Aterrizaje en Plataformas Offshore",
       "publisher": "Congreso internacional de Ciencia y Tecnologia Aeroespacial CICTA",
       "releaseDate": "2018-05-20",
       "url": "",
-      "summary": "Description…"
+      "summary": ""
     }
   ],
   "skills": [
     {
-      "name": "Python",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Backend", "Modelling"]
+      "name": "Languages",
+      "level": "",
+      "keywords": ["Python", "TypeScript", "JavaScript", "SQL", "C"]
     },
     {
-      "name": "Django",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Backend"]
-    },
-    {
-      "name": "Matlab",
-      "level": "Master",
-      "keywords": ["Modelling", "Simulation"]
-    },
-    {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"]
-    },
-    {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
+      "name": "Backend",
+      "level": "",
       "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
+        "Django",
+        "Django REST Framework",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis"
       ]
     },
     {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
+      "name": "Frontend",
+      "level": "",
       "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
+        "React",
+        "React Native",
+        "Next.js",
+        "Tailwind CSS",
+        "HTML5/CSS3"
       ]
     },
     {
-      "name": "Blender",
-      "level": "Master",
-      "keywords": ["Modelado 3d", "Animación"]
+      "name": "AI & Data",
+      "level": "",
+      "keywords": [
+        "LLM Integration",
+        "AI Agents",
+        "RAG",
+        "Pandas",
+        "NumPy",
+        "MATLAB/Simulink",
+        "Optimization (PSO, MILP)"
+      ]
+    },
+    {
+      "name": "Automation",
+      "level": "",
+      "keywords": [
+        "n8n",
+        "MQTT Protocol",
+        "Celery",
+        "Event-driven architectures"
+      ]
+    },
+    {
+      "name": "DevOps & Tools",
+      "level": "",
+      "keywords": [
+        "Git",
+        "GitHub Actions",
+        "Docker",
+        "Railway (CI/CD)",
+        "Cloudflare",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "level": "",
+      "keywords": [
+        "REST APIs",
+        "WebSocket",
+        "Multi-tenant SaaS",
+        "MVC",
+        "Domain-Driven Design"
+      ]
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "B1"
+      "language": "Spanish",
+      "fluency": "Native"
     },
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "English",
+      "fluency": "Professional Working Proficiency (B2)"
     }
   ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }
-  ],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "name": "Sheld-Inspect",
+      "startDate": "2022-01-01",
+      "endDate": null,
+      "description": "Multi-tenant SaaS platform digitizing inspection workflows for 3 organizations (~60 active users), reducing paper-based processes by ~90%. Sole developer of the entire platform: backend (Django), web frontend (React/TypeScript), mobile app (React Native/Expo), CI/CD (Railway), and image hosting (Cloudflare).",
+      "highlights": [
+        "Dynamic form builder with versioning for audit compliance",
+        "Automated PDF report generation with image integration",
+        "Inspector GPS tracking system",
+        "Django",
+        "React",
+        "TypeScript",
+        "React Native",
+        "Expo",
+        "Railway",
+        "Cloudflare"
+      ],
+      "url": "https://sheld-app.com"
     }
   ]
 }

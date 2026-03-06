@@ -5,12 +5,12 @@ import { education } from "../../../cv.json";
 
 export const Education = () => {
   return (
-    <Section title={"Educación"}>
+    <Section title={"Education"}>
       <ul className="flex flex-col gap-8">
         {education.map(({ institution, startDate, endDate, area, courses }) => {
           const startYear = new Date(startDate).getFullYear();
           const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual";
+            endDate != null ? new Date(endDate).getFullYear() : "Present";
           const years = `${startYear} - ${endYear}`;
 
           return (

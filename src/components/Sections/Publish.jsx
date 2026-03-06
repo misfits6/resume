@@ -5,7 +5,7 @@ import { publications } from "../../../cv.json";
 
 export const Pubilish = () => {
   return (
-    <Section title={"Publicaciones"}>
+    <Section title={"Publications"}>
       <ul className="flex flex-col gap-8">
         {publications.map(({ name, releaseDate, publisher, url }) => {
           const startYear = new Date(releaseDate).getFullYear();

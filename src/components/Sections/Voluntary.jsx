@@ -5,7 +5,7 @@ import { volunteer } from "../../../cv.json";
 
 export const Voluntary = () => {
   return (
-    <Section title={"Voluntariado"}>
+    <Section title={"Volunteer Work"}>
       <ul className="flex flex-col gap-8">
         {volunteer.map(
           ({
@@ -18,7 +18,7 @@ export const Voluntary = () => {
           }) => {
             const startYear = new Date(startDate).getFullYear();
             const endYear =
-              endDate != null ? new Date(endDate).getFullYear() : "Actual";
+              endDate != null ? new Date(endDate).getFullYear() : "Present";
             const years = `${startYear} - ${endYear}`;
 
             return (

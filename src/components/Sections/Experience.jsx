@@ -3,65 +3,64 @@ import { Section } from "../Section";
 
 import { work } from "../../../cv.json";
 
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+function formatDate(dateStr, isEnd) {
+  if (!dateStr) return "Present";
+  const d = new Date(dateStr);
+  if (isEnd) return d.getFullYear().toString();
+  return `${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+}
+
 export const Experience = () => {
   return (
-    <Section title={"Experiencia Laboral"}>
-      <ul className="flex flex-col gap-8">
-        {work.map(
-          ({
-            name,
-            startDate,
-            endDate,
-            position,
-            summary,
-            highlights,
-            url,
-          }) => {
-            const startYear = new Date(startDate).getFullYear();
-            const endYear =
-              endDate != null ? new Date(endDate).getFullYear() : "Actual";
-            const years = `${startYear} - ${endYear}`;
+    <Section title={"Professional Experience"}>
+      <ul className="flex flex-col gap-7">
+        {work.map(({ name, startDate, endDate, position, highlights, technologies, url, location }) => {
+          const start = formatDate(startDate, false);
+          const end = endDate != null ? formatDate(endDate, true) : "Present";
+          const dateRange = `${start} – ${end}`;
 
-            return (
-              <li key={summary}>
-                <article>
-                  <header className="flex justify-between items-start mb-1">
-                    <div>
-                      <h3>
-                        <a
-                          className="font-semibold hover:font-bold"
-                          href={url}
-                          title={`Ver ${name}`}
-                          target="_blank"
-                        >
-                          {name}
-                        </a>
-                      </h3>
-                      <h4>{position}</h4>
-                    </div>
-                    <time className="text-sm min-w-28">{years}</time>
-                  </header>
+          return (
+            <li key={name}>
+              <article>
+                <header className="flex justify-between items-baseline mb-1">
+                  <p className="text-sm">
+                    <strong>{position}</strong>
+                    {" | "}
+                    {url ? (
+                      <a
+                        className="font-semibold text-teal-700 hover:underline"
+                        href={url}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {name}
+                      </a>
+                    ) : (
+                      <strong>{name}</strong>
+                    )}
+                    {location && <span className="font-normal">, {location}</span>}
+                  </p>
+                  <time className="text-sm shrink-0 ml-4 italic">{dateRange}</time>
+                </header>
 
-                  <footer>
-                    <p>{summary}</p>
-                    <h2>Tecnologias</h2>
-                    <ul className="inline-flex gap-2 flex-wrap text-xs">
-                      {highlights.map((item) => {
-                        return (
-                          <li className=" rounded-md flex" key={item}>
-                            <span className="rounded-md bg-slate-200 px-2">
-                              {item}
-                            </span>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </footer>
-                </article>
-              </li>
-            );
-          }
-        )}
+                <ul className="list-disc list-outside ml-5 flex flex-col gap-1 text-sm mb-2">
+                  {highlights.map((bullet) => (
+                    <li key={bullet}>{bullet}</li>
+                  ))}
+                </ul>
+
+                {technologies && technologies.length > 0 && (
+                  <p className="text-sm italic">
+                    <span className="font-semibold not-italic">Technologies:</span>{" "}
+                    {technologies.join(", ")}
+                  </p>
+                )}
+              </article>
+            </li>
+          );
+        })}
       </ul>
     </Section>
   );
